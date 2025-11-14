@@ -20,6 +20,12 @@ public abstract class Members {
 }
 
 public class Prompts extends Members {
+
+    @Override
+    protected void function() {
+        // TODO Auto-generated method stub
+        
+    }    
     // Print out the list of options
     protected void Out() {
     System.out.print("Choose: ");
@@ -112,7 +118,6 @@ public class Main {
         System.out.println("The answer is: " + operation.answer);
     }
 }
-
 
 
 
